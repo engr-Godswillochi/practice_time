@@ -6,6 +6,7 @@ function ToDoList(){
 
     const [tasks, setTasks] = useState(["Eat Breakfast", "Take a Shower", "Go to the gym"]);
     const [newTask, setNewTask] = useState('');
+    let i = 0;
 
     function handleInputChange(event){
         setNewTask(event.target.value);
